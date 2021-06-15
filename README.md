@@ -2,48 +2,69 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This is a basic fitness tracker that will help track the amount of weight, time, and distance of your workouts over a 7 day period. This was my first time using Mongoose and MongoDB and I felt like it was pretty intuitive. This is a basic but helpful application that I will be able to use in my day to day life.
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-`md ![alt text](assets/images/screenshot.png) `
+To use the app simply visit: https://immense-castle-10334.herokuapp.com/?id=60c7d55c7a7b600015fa39c1
+
+![alt text](./public/image/fitness-tracker.gif)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+#### Collaborators
+
+- Nick Strong
+- Sam Roberson
+- Chip Long
+- Jon Gregory
+
+#### Technology Used
+
+- NodeJs
+- ExpressJS
+- Mongoose
+- Morgan
+- MongoDB
+- Heroku
 
 ## License
 
-## The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+MIT License
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+Copyright (c) [2021] [TJ Courey]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Features
 
-If your project has a lot of features, list them here.
+- Track both Cardio and Resistance Workouts
+- Graphs for the past weeks workouts
+- Ability to store info on weight, reps, sets, time, and distance
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+No contribution necessary but feedback is always appreciated. Feel free to message me here or via email at tjcourey84@gmail.com
